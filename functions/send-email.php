@@ -5,6 +5,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 require_once "PHPMailer/PHPMailer.php";
 require_once "PHPMailer/SMTP.php";
 require_once "PHPMailer/Exception.php";
+require_once "config.php";
 
 $data = [
     'statusCode' => 400,
@@ -37,15 +38,15 @@ if (isset($_POST['action']) && $_POST['action'] == 'new-signup') {
     // $mail->SMTPDebug = 1;
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'ssl';
-    $mail->Host = 'smtp.titan.email';
+    $mail->Host = $host;
     $mail->Port = '465';
-    $mail->Username = 'support@crrt.site';
-    $mail->Password = 'EtheReal101@';
+    $mail->Username = $username;
+    $mail->Password = $password;
 
     // EMail Settings
     $mail->isHTML(true);
     $mail->setFrom($emailer, $name);
-    $mail->addAddress('lilsoftx@gmail.com');
+    $mail->addAddress($owner);
     $mail->Subject = $subject;
     $mail->Body = $message;
 
