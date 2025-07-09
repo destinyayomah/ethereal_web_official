@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+RewriteRule ^index index.php [NC,L]
+RewriteRule ^packages packages.php [NC,L]
+RewriteRule ^checkout checkout.php [NC,L]
