@@ -23,3 +23,19 @@ function _clipboard(event, text) {
         document.body.removeChild(textarea);
     }
 }
+
+$(document).on('click', '.tab', function () {
+    const value = $(this).text();
+    const tab = $('.tab');
+
+    tab.removeClass('active');
+    $(this).addClass('active');
+
+    if (value == 'General') {
+        $('#container01').css('display', 'flex');
+        $('#container02').css('display', 'none');
+    } else {
+        $('#container02').css('display', 'flex');
+        $('#container01').css('display', 'none');
+    }
+});
