@@ -31,7 +31,7 @@
             </li>
         </ul>
 
-        <p id="text04">Limited Earnings</p>
+        <p id="text05">Unlimited Daily Stream</p>
 
         <ul id="buttons01" class="buttons">
             <li>
@@ -42,7 +42,7 @@
             </li>
         </ul>
 
-        <p id="text05">Unlimited Daily Stream</p>
+        <p id="text04">Limited Earnings</p>
 
         <p id="text03">The Premium Package is recommended to our users since it offers over 3x of what basic tier gives</p>
 
