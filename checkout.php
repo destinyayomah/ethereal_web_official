@@ -27,8 +27,8 @@
             <div class="note">Do not pay with Opay here</div>
             <ul id="buttons03" class="buttons">
                 <li>
-                    <a href="#" onclick="_clipboard(event, '3002639573');" class="button n01" role="button">
-                        <span class="label">3002639573</span>
+                    <a href="#" onclick="_clipboard(event, '3002666700');" class="button n01" role="button">
+                        <span class="label">3002666700</span>
                         <i class="ri-file-copy-line"></i>
                     </a>
                 </li>
@@ -37,7 +37,7 @@
                 <li><a href="#" class="button n01" role="button">Kuda Microfinance Bank</a></li>
             </ul>
             <ul id="buttons05" class="buttons">
-                <li><a href="#" class="button n01" role="button">ETHEREAL WEBSITE</a></li>
+                <li><a href="#" class="button n01" role="button">ETHEREALWEBSITEAI</a></li>
             </ul>
             <ul id="buttons02" class="buttons">
                 <li><a href="#" class="button n01" role="button">GET STARTED IMMEDIATELY</a></li>
